@@ -1,0 +1,172 @@
+body {
+  height: 2000px;
+  position: relative;
+  background-color: #b7dbff;
+}
+
+.portfolio-container {
+  height: 95%;
+  width: 95%;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.portfolio-message {
+  display: flex;
+  flex-direction: column;
+  height: 285px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background-color: #ffffb7;
+  border: double 10px white;
+}
+
+.portfolio-message h1 {
+  font-family: "Quicksand", sans-serif;
+  font-size: 60px;
+}
+
+.my_favolite_artist {
+  display: flex;
+  flex-direction: column;
+  height: 399px;
+  margin-top: 20px;
+  position: relative;
+  background-color: aliceblue;
+}
+
+.artist-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70%;
+  width: 90%;
+}
+
+.my_favolite_anime {
+  height: 505.4px;
+  padding: 1rem;
+  margin-top: 20px;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.anime-container {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80%;
+  width: 90%;
+}
+
+.artist-pictures {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.artist-pictures a {
+  width: 26%;
+  height: 70%;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
+  overflow: visible;
+}
+
+.anime-pictures {
+  display: flex;
+  justify-content: center;
+  height: 90%;
+}
+
+.anime-pictures a {
+  width: 26%;
+  height: 100%;
+  justify-content: center;
+  overflow: visible;
+  margin: 0 15px;
+}
+
+.anime img {
+  object-fit: cover;
+  width: 100%;
+  transition-duration: 0.3s;
+  box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+}
+
+.artist img {
+  object-fit: cover;
+  width: 100%;
+  transition-duration: 0.3s;
+  box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057),
+    0 5px 6.1px rgba(0, 0, 0, 0.076), 0 10.1px 11.4px rgba(0, 0, 0, 0.086),
+    0 19.2px 19.8px rgba(0, 0, 0, 0.092), 0 38.4px 34.8px rgba(0, 0, 0, 0.1),
+    0 101px 74px rgba(0, 0, 0, 0.13);
+}
+
+.artist {
+  margin: 0 5px;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.anime {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.topic {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 30px;
+}
+
+.anime:hover {
+  transform: scale(1.07);
+}
+
+.artist:hover {
+  transform: scale(1.07);
+}
+
+.anime-container h3 {
+  margin-bottom: 10px;
+}
+
+.jojo-messages {
+  margin: 20px 0;
+  height: 600px;
+  background-color: aliceblue;
+}
+
+.jojo-messages p {
+  font-size: 30px;
+}
+
+.jojo-img {
+  width: 40%;
+  height: 90%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.jojo-img img {
+  object-fit: contain;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
